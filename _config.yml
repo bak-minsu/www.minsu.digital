@@ -9,9 +9,7 @@ github_username:  bak-minsu
 
 sass:
   sass_dir: _sass
-
-plugins:
-  - jekyll-coffeescript
+  style: compressed
 
 exclude:
   - .sass-cache/
