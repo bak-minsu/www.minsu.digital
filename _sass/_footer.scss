@@ -1,0 +1,15 @@
+footer a, footer p {
+  font-family: "Noto Sans Deseret", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+    display: inline;
+    margin: 0 2px;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    margin-top: 90px;
+    min-width: 500px;
+}
