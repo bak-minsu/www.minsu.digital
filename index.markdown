@@ -1,5 +1,5 @@
 ---
-title: Minsu Park's Abode
-layout: default
+title: minsu.digital
+layout: home
 permalink: /
 ---

@@ -5,12 +5,14 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
     <script src="/assets/js/main.js"></script>
+    {% include fonts.html %}
   </head>
   <body>
-    {% include navbar.html %}
-    <h1>{{ page.title }}</h1>
-    <section>
-      {{ content }}
+    {% include logo.html %}
+    <section id="home-container">
+      <a href="/about">about</a>
+      <a href="/blog">blog</a>
+      <a href="https://linkedin.com/in/minsupark">resume</a>
     </section>
     {% include footer.html %}
   </body>
