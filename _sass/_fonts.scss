@@ -4,6 +4,7 @@ body {
 
 a:link {
   color: #FF6663;
+  text-decoration: none;
 }
 
 a:visited {
@@ -41,8 +42,4 @@ footer a, footer p {
   font-weight: 700;
   font-style: normal;
   font-size: 50px;
-}
-
-#home-container a:link {
-  text-decoration: none;
 }
