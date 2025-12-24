@@ -1,0 +1,24 @@
+title: Minsu Park
+email: me@minsu.digital
+description: >
+  Minsu's personal site to host a resume, blog, and projects.
+domain: www.minsu.digital
+baseurl: ""
+url: "https://www.minsu.digital"
+github_username:  bak-minsu
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

@@ -1,0 +1,19 @@
+nav {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 20px;
+    border-bottom: 2px solid #FF6663;
+    padding-bottom: 10px;
+    width: 500px;
+}
+
+nav a {
+    font-size: 35px;
+    padding: 0 15px;
+    text-align: left;
+}
+
+nav a:hover {
+    animation: button-hover 0.3s forwards;
+}
