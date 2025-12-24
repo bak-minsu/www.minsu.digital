@@ -3,7 +3,7 @@ layout: basic-content
 title: About
 permalink: /about
 ---
-Welcome! It's nice to meet you. My name is Minsu, and I am an enthusiastic Go Developer, 
+Welcome! My name is Minsu, and I am an enthusiastic Go Developer, 
 an ever-growing Cybersecurity professional, and a humble homelab enthusiast. 
 This is the site where I will post about various projects, tutorials, and other
 oddities.
