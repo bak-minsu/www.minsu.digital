@@ -13,7 +13,8 @@
     padding: 10px 20px;
     background-color: #FFEEDD;
     color: #231F20;
-    width: 200px;
+    min-width: 200px;
+    max-width: 350px;
     margin: 25px 0 0 0;
 }
 
@@ -34,7 +35,7 @@
 }
 
 .basic-content-container p {
-    font-size: 1em;
+    font-size: 1.5em;
     margin: 0;
     line-height: 1.5em;
     color: #FFEEDD;
@@ -45,4 +46,8 @@
     font-size: 1em;
     line-height: 1.5em;
     color: #84A07C;
+}
+
+.basic-content-container img {
+    width: 500px;
 }
