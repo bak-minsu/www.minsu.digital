@@ -1,0 +1,31 @@
+.basic-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 150px;
+    max-width: 500px;
+    border: #FFEEDD 1px solid;
+}
+
+.basic-content-container h1 {
+    font-size: 2em;
+    padding: 10px 20px;
+    background-color: #FFEEDD;
+    color: #84A07C;
+    width: 200px;
+    margin: 25px 0 0 0;
+}
+
+.basic-content-container p {
+    font-size: 1em;
+    margin: 0;
+    line-height: 1.5em;
+    color: #FFEEDD;
+    padding: 5px 20px 10px 20px;
+}
+
+.basic-content-container a {
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #84A07C;
+}
