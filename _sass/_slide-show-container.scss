@@ -2,24 +2,32 @@
     margin: 15px 20px;
     width: auto;
     position: relative;
-}
 
-.slide-show-container img {
-    display: none;
-    width: 100%;
-}
+    img {
+        display: none;
+        width: 100%;
+    }
 
-.slide-show-container .slide-show-buttons {
-    display: flex;
-    width: 100%;
-    top: 50%;
-    justify-content: space-between;
-    position: absolute;
-}
+    .slide-show-buttons {
+        display: flex;
+        width: 100%;
+        top: 0%;
+        height: 100%;
+        justify-content: space-between;
+        position: absolute;
+    }
 
-.slide-show-container button {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 10px 5px;
-    cursor: pointer;
+    button {
+        background-color: rgba(0, 0, 0, 0.1);
+        color: $shadow-grey;
+        padding: 10px 5px;
+        width: 30px;
+        border: none;
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: $antique-white;
+        }
+    }
 }

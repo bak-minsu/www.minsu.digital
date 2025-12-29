@@ -1,0 +1,37 @@
+#blog-posts-container {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+    li {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+
+        a {
+            border-width: 2px 0 2px 0;
+            border-style: solid;
+            border-color: $antique-white;
+
+            background-color: $dusty-denim;
+            display: block;
+            color: $antique-white;
+            margin: 0;
+            padding: 5px 10px;
+
+            &:hover {
+                background-color: $vibrant-coral;
+            }
+
+            h3 {
+                margin: 0;
+            }
+
+            p {
+                font-size: 0.5em;
+                padding: 0;
+            }
+        }
+    }
+}

@@ -5,21 +5,15 @@
     justify-content: center;
     height: 100vh;
     text-align: center;
-}
 
-.error-container h1 {
-    margin: 30px 0;
-    font-size: 5em;
-}
+    h1 {
+        margin: 15px 0;
+        font-size: 5em;
+        @include noto-sans-deseret;
+    }
 
-.error-container h1 {
-    font-family: "Noto Sans Deseret", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.error-container p {
-    font-family: "Ubuntu Mono", monospace;
-    font-weight: 700;
-    font-style: normal;
+    p {
+        font-size: 1.5em;
+        @include ubuntu-mono-bold;
+    }
 }

@@ -1,0 +1,14 @@
+body {
+    background-color: $shadow-grey;
+    color: $vibrant-coral;
+
+    min-width: $site-wide-min-width;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+    @include ubuntu-mono-bold;
+}

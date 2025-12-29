@@ -5,49 +5,70 @@
     margin: 100px 50px 0 50px;
     min-width: 500px;
     max-width: 1000px;
-    border: #FFEEDD 1px solid;
-}
+    border: $antique-white 1px solid;
 
-.basic-content-container h1 {
-    font-size: 2em;
-    padding: 10px 20px;
-    background-color: #FFEEDD;
-    color: #231F20;
-    min-width: 200px;
-    max-width: 350px;
-    margin: 25px 0 0 0;
-}
+    h1 {
+        background-color: $antique-white;
+        color: $shadow-grey;
+        font-size: 2em;
+        padding: 10px 20px;
+        min-width: 200px;
+        margin: 25px 0 0 0;
+    }
 
-.basic-content-container h2 {
-    font-size: 1.5em;
-    margin: 0;
-    line-height: 1.5em;
-    color: #FFEEDD;
-    padding: 5px 20px 10px 20px;
-}
+    h2 {
+        color: $antique-white;
+        font-size: 1.5em;
+        margin: 0;
+        line-height: 1.5em;
+        padding: 5px 20px 10px 20px;
+    }
 
-.basic-content-container li {
-    font-size: 1em;
-    margin: 0;
-    line-height: 1.25em;
-    color: #FFEEDD;
-    padding: 0 20px 0 20px;
-}
+    li {
+        color: $antique-white;
+        font-size: 1.5em;
+        margin: 0 0 0 30px;
+        line-height: 1.25em;
+        padding: 0 20px 0 20px;
+    }
 
-.basic-content-container p {
-    font-size: 1.5em;
-    margin: 0;
-    line-height: 1.5em;
-    color: #FFEEDD;
-    padding: 5px 20px 10px 20px;
-}
+    p {
+        color: $antique-white;
+        font-size: 1.5em;
+        margin: 0;
+        line-height: 1.5em;
+        padding: 5px 20px 10px 20px;
+    }
 
-.basic-content-container a {
-    font-size: 1em;
-    line-height: 1.5em;
-    color: #84A07C;
-}
+    a {
+        color: $muted-teal;
+        font-size: 1em;
+        line-height: 1.5em;
+    }
 
-.basic-content-container img {
-    width: 500px;
+    img {
+        width: 500px;
+    }
+
+    button {
+        margin: 20px 0 0 0;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        width: 100%;
+
+        .blog-back-button {
+            @include ubuntu-mono-bold;
+            font-size: 1.5em;
+            text-align: center;
+            color: $vibrant-coral;
+            padding: 5px 50px;
+
+            &:hover {
+                text-decoration: none;
+                background-color: $vibrant-coral;
+                color: $antique-white;
+            }
+        }
+    }
 }

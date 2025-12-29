@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    {% include navbar.html %}
+    <section class="basic-content-container">
+      <button>
+        <a class="blog-back-button" href="/blog">Back to Blog Posts</a>
+      </button>
+      <h1>{{ page.title }}</h1>
+      <p>{{ content }}</p>
+    </section>
+    {% include footer.html %}
+  </body>
+</html>
