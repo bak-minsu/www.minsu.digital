@@ -1,9 +1,12 @@
 ---
-layout: basic-content
-title: "2025-12-23: Public Key Cryptography Comic"
+layout: post-content
+title: "Public Key Cryptography Comic"
+createdDate: "2025-12-23"
+excerpt_separator: <!--more-->
 ---
-Below is a comic I created to help explain some of the complext 
+This comic was created to explain complex 
 cryptography concepts to coworkers.
+<!--more-->
 
 Let me know what you think!
 
