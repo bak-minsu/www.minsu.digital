@@ -1,8 +1,10 @@
-a:link {
-    color: #FF6663;
-    text-decoration: none;
-}
+a {
+    &:link {
+        color: $vibrant-coral;
+        text-decoration: none;
+    }
 
-a:visited {
-    color: #FF6663;
+    &:visited {
+        color: $vibrant-coral;
+    }
 }

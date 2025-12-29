@@ -25,10 +25,10 @@
 @keyframes button-hover {
     from {
         background-color: transparent;
-        color: #FF6663;
+        color: $vibrant-coral;
     }
     to {
-        background-color: #FF6663;
-        color: #FFEEDD;
+        background-color: $vibrant-coral;
+        color: $antique-white;
     }
 }
