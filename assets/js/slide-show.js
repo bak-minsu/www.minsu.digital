@@ -67,8 +67,6 @@ function initSlideShow(slideshow) {
   let newSlideShow = new SlideShow(slideshow);
 
   slideShows[slideShows.length] = newSlideShow;
-
-  newSlideShow.updateDisplay();
 }
 
 // Gets all slideshows on the page
@@ -83,14 +81,4 @@ function initSlideShows() {
   for (let i = 0; i < allSlideShows.length; i++) {
     initSlideShow(allSlideShows[i]);
   }
-}
-
-// Advances to the next slide in the specified slideshow
-function nextSlide(slideShowIndex) {
-  slideShows[slideShowIndex].next();
-}
-
-// Goes back to the previous slide in the specified slideshow
-function prevSlide(slideShowIndex) {
-  slideShows[slideShowIndex].previous();
 }
